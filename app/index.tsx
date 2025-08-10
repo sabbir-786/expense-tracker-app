@@ -3,10 +3,6 @@ import React, { useEffect } from 'react'
 import { colors } from '@/constants/theme'
 import { useRouter } from 'expo-router';
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 940d709 (Update Code)
 const index = () => {
     const router = useRouter();
 
@@ -17,10 +13,6 @@ const index = () => {
                 resizeMode="contain"
                 source={require('../assets/images/splashImage.png')}
             />
-<<<<<<< HEAD
-
-=======
->>>>>>> 940d709 (Update Code)
         </View>
     );
 };

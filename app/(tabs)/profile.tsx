@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { StyleSheet, View, TouchableOpacity, Alert } from 'react-native'
 import React from 'react'
 import ScreenWrapper from '@/components/ScreenWrapper'
@@ -15,25 +14,6 @@ import Animated, { FadeIn, FadeInDown } from 'react-native-reanimated'
 import { signOut } from 'firebase/auth'
 import { auth } from '@/config/firebase'
 import { useRouter } from 'expo-router'
-=======
-import { StyleSheet, View, TouchableOpacity, Alert } from 'react-native';
-import React from 'react';
-import ScreenWrapper from '@/components/ScreenWrapper';
-import { radius, spacingX, spacingY } from '@/constants/theme';
-import { verticalScale } from 'react-native-size-matters';
-import Header from '@/components/Header';
-import { useAuth } from '@/contexts/authContext';
-import Typo from '@/components/Typo';
-import { Image } from 'expo-image';
-import { getProfileImage } from '@/services/imageService';
-import { accountOptionType } from '@/types';
-import * as Icons from 'phosphor-react-native';
-import Animated, { FadeInDown } from 'react-native-reanimated';
-import { signOut } from 'firebase/auth';
-import { auth } from '@/config/firebase';
-import { useRouter } from 'expo-router';
-import { useTheme } from '@/contexts/ThemeContext';
->>>>>>> 940d709 (Update Code)
 
 const Profile = () => {
   const { user } = useAuth();
