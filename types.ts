@@ -40,7 +40,7 @@ export type TypoProps = {
     textProps?: TextProps;
 };
 
-<<<<<<< HEAD
+
 =======
 
 export interface InputProps extends TextInputProps {
@@ -115,7 +115,7 @@ export type TransactionItemProps = {
     handleClick: Function;
 };
 
-<<<<<<< HEAD
+
 export interface InputProps extends TextInputProps {
     icon?: React.ReactNode;
     containerStyle?: ViewStyle;
@@ -186,7 +186,7 @@ export type WalletType = {
     uid?: string;
     created?: Date;
 };
-<<<<<<< HEAD
+
 =======
 
 export type ChartDataItem = {

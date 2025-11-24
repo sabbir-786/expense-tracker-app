@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useState } from "react";
 import {
     StyleSheet,
@@ -59,7 +59,7 @@ const Register = () => {
         setError(null);
 
         if (!name || !email || !password) {
-<<<<<<< HEAD
+
             setError("Please fill in all fields.");
 =======
             setError('Please fill in all fields.');
@@ -68,7 +68,7 @@ const Register = () => {
         }
 
         if (!/\S+@\S+\.\S+/.test(email)) {
-<<<<<<< HEAD
+
             setError("Please enter a valid email address.");
 =======
             setError('Please enter a valid email address.');
@@ -77,7 +77,7 @@ const Register = () => {
         }
 
         if (password.length < 6) {
-<<<<<<< HEAD
+
             setError("Password must be at least 6 characters.");
 =======
             setError('Password must be at least 6 characters.');
@@ -90,7 +90,7 @@ const Register = () => {
         setLoading(false);
 
         if (!res.success) {
-<<<<<<< HEAD
+
             setError(res.msg || "Registration failed. Please try again.");
 =======
             setError(res.msg || 'Registration failed. Please try again.');
@@ -99,7 +99,7 @@ const Register = () => {
     };
 
     return (
-<<<<<<< HEAD
+
         <ScreenWrapper style={styles.container}>
             <KeyboardAvoidingView
                 style={styles.content}
@@ -231,7 +231,7 @@ const Register = () => {
                     </Typo>
                 )}
 
-<<<<<<< HEAD
+
                 <View style={styles.footer}>
                     <Typo size={14} color={colors.textLight}>
                         Already have an account?{" "}
@@ -275,7 +275,7 @@ export default Register;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-<<<<<<< HEAD
+
         backgroundColor: colors.neutral900,
         paddingHorizontal: spacingX._20,
     },

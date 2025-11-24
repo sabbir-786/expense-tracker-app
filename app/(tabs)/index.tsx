@@ -70,9 +70,7 @@ const Home = () => {
 
 export default Home
 
-<<<<<<< HEAD
-const styles = StyleSheet.create({})
-=======
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -104,4 +102,4 @@ const styles = StyleSheet.create({
         gap: spacingY._25,
     },
 });
->>>>>>> 940d709 (Update Code)
+
